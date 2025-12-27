@@ -1,0 +1,33 @@
+# Exception Theory Universal Astronomer v7.5
+# Required Dependencies
+# =====================
+
+# Core Scientific Computing
+numpy>=1.20.0
+
+# Scientific/Mathematical Functions
+scipy>=1.7.0
+
+# Plotting and Visualization
+matplotlib>=3.4.0
+
+# FITS File Support (Astronomical Data)
+astropy>=5.0
+
+# NetCDF Support (Climate/Ocean Data)
+netCDF4>=1.5.0
+h5py>=3.0.0
+
+# Optional but Recommended
+# ========================
+# For enhanced FITS handling:
+# fitsio>=1.1.0
+
+# For parallel processing (future enhancement):
+# joblib>=1.0.0
+
+# Notes:
+# ------
+# - Tkinter is required but comes with standard Python installation
+# - If Tkinter is missing, install with: apt-get install python3-tk (Linux)
+#   or reinstall Python with Tcl/Tk support (Windows/Mac)
